@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 146718837}
   - component: {fileID: 146718836}
   - component: {fileID: 146718835}
-  - component: {fileID: 146718834}
+  - component: {fileID: 146718839}
   m_Layer: 0
   m_Name: Snake
   m_TagString: Untagged
@@ -356,19 +356,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &146718834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146718833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f37b18e9c5bbd2348946a35826431104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
 --- !u!61 &146718835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -508,6 +495,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &146718839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146718833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9290c25912d959642a31ca5fca6a2143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &208340117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,6 +2063,7 @@ GameObject:
   - component: {fileID: 1039821589}
   - component: {fileID: 1039821588}
   - component: {fileID: 1039821587}
+  - component: {fileID: 1039821590}
   m_Layer: 5
   m_Name: Move Left - Button
   m_TagString: Untagged
@@ -2185,6 +2185,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039821585}
   m_CullTransparentMesh: 1
+--- !u!114 &1039821590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039821585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cdb4d07bb0fcb4e80071508feef7c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1096411126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2830,6 +2842,7 @@ GameObject:
   - component: {fileID: 1635104944}
   - component: {fileID: 1635104943}
   - component: {fileID: 1635104942}
+  - component: {fileID: 1635104945}
   m_Layer: 5
   m_Name: Move Right - Button
   m_TagString: Untagged
@@ -2951,6 +2964,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635104940}
   m_CullTransparentMesh: 1
+--- !u!114 &1635104945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635104940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cdb4d07bb0fcb4e80071508feef7c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1827338444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,7 +3517,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -7184,7 +7209,7 @@ GameObject:
   - component: {fileID: 2127436533}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7256,7 +7281,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 350d2cab485be8c4dbe393cbc4cdaed1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
