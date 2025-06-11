@@ -28,4 +28,14 @@ public class PlayerMovement : MonoBehaviour
         physicsBody.velocity = newVelocity;
     }
 
+
+    public float jumpSpeed = 10;
+
+    public void Jumping()
+    {
+        Vector2 newVelocity = physicsBody.velocity;
+        newVelocity.y = jumpSpeed;
+        physicsBody.velocity = newVelocity;
+    }
+
 }
